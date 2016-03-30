@@ -1,18 +1,18 @@
-Golang library to use the [Watson Developer Cloud][wdc] services, a collection of REST
+Golang library to use the **Watson Developer Cloud** services, a collection of REST
 APIs and SDKs that use cognitive computing to solve complex problems.
 
-## Table of Contents
-    * Preamble (#preamble)
-    * Installation (#installation)
-    * Usage (#usage)
-    * [IBM Watson Services](#ibm-watson-services)
-        * [Speech to Text](#speech-to-text)
-    * Contributing (#contributing)
-    * License (#license)
+# Table of Contents
+* [Preamble](#preamble)
+* [Installation](#installation)
+* [Usage](#usage)
+* [IBM Watson Services](#ibm-watson-services)
+    * [Speech to Text](#speech-to-text)
+* [Contributing](#contributing)
+* [License](#license)
 
 ## Preamble
 The ultimate target of this library is to support all of IBM's Watson APIs. However at the current time we only support access to the following endpoints:
-    * Speech-To-Text (no streaming)
+* Speech-To-Text (without streaming support)
 
 I'll try to add more functions in the future. Your patience is highly appreciated. 
 If you can't wait for a specific function, feel free to help me out and contribute!
@@ -67,4 +67,4 @@ Feel free to help me expand this little library and help the Go community use IB
 
 ## License
 This library is licensed under the MIT license. Full license text is available in
-[COPYING][license].
+[LICENSE](./LICENSE).
