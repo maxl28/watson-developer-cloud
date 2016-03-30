@@ -2,7 +2,7 @@ package speech_to_text
 
 import (
 	"strings"
-	"github.com/maxl28/watson-developer-cloud/watson"
+	watson "github.com/maxl28/watson-developer-cloud"
 	"github.com/fatih/structs"
 	"strconv"
 	"net/http"
